@@ -56,7 +56,7 @@ void writeFile(const std::vector<int> frequency) {
 	try {
 		for (int i = 0; i < 26; i++) 
 			outFile << char (i + 'a') << ' ' << frequency[i] << std::endl;
-		std::cout << "File has been converted" << std::endl;
+		std::cout << "Frequencies generated" << std::endl;
 	}
 	catch (const std::exception& e) {
 		std::cout << "Conversion error" << std::endl;
